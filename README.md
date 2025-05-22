@@ -4,22 +4,34 @@
 
 Book Manager App is a feature-rich Flutter application that allows users to search for books using the Google Books API, view detailed information about each book, and save their favorite titles for future reference. This application demonstrates modern Flutter development practices including state management with BLoC pattern and clean architecture principles.
 
-![App Screenshot Placeholder](insert_screenshot_path_here)
-*Place a screenshot of your home screen here*
+![Book Search Screen](screenshot/home.png)
+*The home screen with search functionality*
 
 ## Features
 
 - **Book Search**: Search for books by title, author, or keyword
+  
+  ![Book Search Results](screenshot/search.png)
+  *Search results showing matching books*
+
 - **Detailed Book Information**: View comprehensive details about each book including:
   - Cover image
   - Title and author
   - Description
   - Book ID
-- **Favorites Management**: Add books to favorites and access them offline
-- **Responsive UI**: Clean and intuitive interface that works across different device sizes
+  
+  ![Book Details Screen](screenshot/detail.png)
+  *Detailed view of a selected book with its information*
 
-![Book Details Screenshot Placeholder](insert_screenshot_path_here)
-*Place a screenshot of the book details screen here*
+- **Favorites Management**: Add books to favorites and access them offline
+  
+  ![Favorites with Books](screenshot/favorite.png)
+  *Favorites screen showing saved books*
+  
+  ![Empty Favorites](screenshot/emptyfavorite.png)
+  *Empty favorites screen with prompt to add books*
+
+- **Responsive UI**: Clean and intuitive interface that works across different device sizes
 
 ## Architecture
 
@@ -34,9 +46,6 @@ This project follows a structured architecture pattern:
 - **BLoC Pattern**: Separates business logic from UI for better testability and maintenance
 - **Repository Pattern**: Abstracts data sources and provides clean API for the application
 - **Equatable**: Used for efficient object comparison
-
-![Favorites Screenshot Placeholder](insert_screenshot_path_here)
-*Place a screenshot of the favorites screen here*
 
 ## Technical Stack
 
@@ -77,9 +86,6 @@ flutter pub get
 ```
 flutter run
 ```
-
-![App Flow Screenshot Placeholder](insert_screenshot_path_here)
-*Place a screenshot showing app navigation flow here*
 
 ## Project Structure
 
@@ -127,4 +133,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-*Note: Replace the "insert_screenshot_path_here" placeholders with actual paths to your screenshots once you've added them to your project.*
+*Note: Make sure to place the screenshots in an assets/images folder in your project directory.*
